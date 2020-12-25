@@ -1,0 +1,106 @@
+body {
+    font: normal 75% Arial, Helvetica, sans-serif;
+    background: #D9D9D9;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+footer {
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: solid 6px #760A3A;
+    overflow: hidden;
+}
+
+#cgi {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 7.5px;
+}
+
+#furniture {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 7.5px;
+}
+
+#procedural {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 7.5px;
+}
+
+#contact {
+    display: none;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 200px 200px 200px 200px;
+}
+
+#single {
+    background-color: indigo;
+    text-align: center;
+    height: 1000px;
+    left: 0px;
+    right: 0px;
+}
+
+#comment {
+
+}
+
+.scroll_container {
+    width: 33.333%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+
+.scroll_buffer {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 17px;
+}
+
+.scroll_content {
+    width: 100%;
+    background: none;
+    color: #35ff99;
+    text-align: center;
+}
